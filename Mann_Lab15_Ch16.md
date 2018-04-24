@@ -2,7 +2,7 @@
 
 ## How to get git from source
 
-Some systems do not have git preinstalled. I had one that did not want to install from apt easily. One solution is to pull a zip from the official Git github and compile it yourself.
+Some systems do not have git preinstalled. I had one that did not want to install from apt easily. One solution is to pull a zip from the official Git github and compile it yourself. Many projects include a makefile which uses the make utility in Linux. Make helps when there are many .c files that all need to be compiled for the project. We will be using it to get git!
 
 First step is to download an archive of the source code. Since we are assuming we do not have git, we can use wget to download the tar.gz
 
